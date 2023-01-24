@@ -15,13 +15,17 @@
       <!-- fontawesome -->
       <script src="https://kit.fontawesome.com/2ba76938b9.js" crossorigin="anonymous"></script>
 <body>
+
+  <!------- header start --------->
     <header>
+
+      <!------ nav start ------->
         <div class="container ">
             <nav class="navbar navbar-expand-lg bg-white">
                 <div class="container-fluid  d-flex justify-content-between ">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img style="width: 44px; height: 45px;" src="images/business.png" alt="">
-                        <a class="navbar-brand fw-bold " href="#">Justice</a>
+                    <div class="d-flex justify-content-center align-items-center  ">
+                        <img  style="width: 44px; height: 45px;" src="images/business.png" alt="">
+                        <a class="navbar-brand fw-bold p-2 " style="font-family: 'Open Sans', sans-serif;" href="#">Justice</a>
                     </div>
                   
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +34,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0  ms-auto">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Service</a>
@@ -46,7 +50,28 @@
                       </li>
                     </ul>
                     <div class="d-flex ms-auto">
-                        <button type="button" class="btn btn-primary">Free Consultation</button>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Free Consultation
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Subject</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             <textarea class="h-25 w-100" name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Send</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       
                     </div>
                   </div>
@@ -55,15 +80,18 @@
               </nav>
         </div>
 
+        <!----- nav End ----->
+
+        <!------ banner Start ------>
+
         <section class="container mt-3">
             <div>
                         <div class="banner-img d-flex justify-content-center align-items-center">
                            
                             <div class="text-center">
-                                <h1 class="display-3 fw-bold text-white" style="font-family: 'EB Garamond', serif;
-                                font-family: 'Open Sans', sans-serif;" >We Provide Effective <br> Legal Solutions
+                                <h1 class="display-3 fw-bold text-white" style="font-family: 'Open Sans', sans-serif;" >We Provide Effective <br> Legal Solutions
                                 </h1>
-                                <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                                <p class="text-white">County If you are charged with a crime in Orange County, an experienced <br>  criminal defense lawyer can help minimize the long-term consequences of <br>  your short-term actions.</p>
                               
                                     <form class="d-flex align-items-center flex-column flex-sm-row gap-2  gap-sm-4" role="search">
                                         <input class="form-control w-75 "  type="search" placeholder="Search" aria-label="Search">
@@ -75,36 +103,44 @@
                             </div>
                 </div>
         </section>
+
+        <!------ banner End ------->
     </header>
+    <!----- header end ------>
+
+    <!-- main start -->
 
     <main>
+
+      <!-- main Section One Start -->
         <section class="container mt-5 py-3">
-            <h1 class="fw-bold text-center "> The Legal Practice Area</h1>
-            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+            <h1 class="fw-bold text-center " style="font-family: 'EB Garamond', serif;
+            font-family: 'Open Sans', sans-serif;"> The Legal Practice Area</h1>
+            <p class="text-center">A Commentary on the LCIA Arbitration Rules, 2nd edition expands on the <br> First Edition which was the first full length book on the LCIA Rules.</p>
             <div class="row">
               <div class="col-12 ">
                 <div class="card-group ">
-                  <div class="card p-5 border-0 ">
+                  <div class="card p-5 border-start-0 border-top-0 ">
                     <img src="images/business.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Business Law</h5>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <p class="card-text">Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior. This is basically about the principles and regulations</p>
                       <img src="images/Frame.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     </div>
                   </div>
-                  <div class="card p-5 bg-body-tertiary border-0">
+                  <div class="card p-5 bg-body-tertiary  border-top-0">
                     <img src="images/criminal.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Criminal Law</h5>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <p class="card-text">Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior. This is basically about the principles and regulations</p>
                       <img src="images/Frame.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     </div>
                   </div>
-                  <div class="card p-5 border-0">
+                  <div class="card p-5 border-top-0 border-end-0">
                     <img src="images/child.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title"> Child Support</h5>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <p class="card-text">Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior. This is basically about the principles and regulations</p>
                       <img src="images/Frame.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     </div>
                   </div>
@@ -113,19 +149,19 @@
               </div>
               <div class="col-12  ">
                 <div class="card-group">
-                  <div class="card p-5 border-0">
+                  <div class="card p-5 border-bottom-0 border-start-0 border-top-0">
                     <img src="images/business.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Education Law</h5>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <img src="images/education.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
+                      <p class="card-text">Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior. This is basically about the principles and regulations</p>
+                      <img src="images/Frame.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     </div>
                   </div>
-                  <div class="card p-5 border-0">
+                  <div class="card p-5 border-bottom-0 border-top-0">
                     <img src="images/divorce.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title">Divorce Law</h5>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <p class="card-text">Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior. This is basically about the principles and regulations</p>
                       <img src="images/Frame.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     </div>
                   </div>
@@ -133,7 +169,7 @@
                     <img src="images/tax.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     <div class="card-body text-center">
                       <h5 class="card-title"> Tax Law</h5>
-                      <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <p class="card-text">Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior. This is basically about the principles and regulations</p>
                       <img src="images/Frame.png" class="card-img-top w-25 mx-auto my-auto" alt="...">
                     </div>
                   </div>
@@ -147,9 +183,14 @@
 
         </section>
 
-        <section class="container mt-5 py-5">
-          <h1 class="fw-bold text-center ">What Our Client Say</h1>
-          <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+        <!-- main Section One End -->
+
+        <!-- main Section two Start -->
+
+        <section class="container mt-5 ">
+          <h1 class="fw-bold text-center " style="font-family: 'EB Garamond', serif;
+          font-family: 'Open Sans', sans-serif;">What Our Client Say</h1>
+          <p class="text-center">The second edition provides a thorough assessment of the Rules <br> and their legal and historical context, as well as advice on areas <br> for consideration</p>
           <div id="carouselExampleCaptions" class="carousel slide mt-5">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -163,7 +204,7 @@
                   <img src="images/user-1.png" alt="" class="w-25">
                   <h5>Awlad Hossain</h5>
                   <p>UIX Designer</p>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                  <p>Build a portfolio by working on real problem statements <br> from actual clients and not on simulated <br> theoretical projects!</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -172,7 +213,7 @@
                   <img src="images/user-1.png" alt="" class="w-25">
                   <h5>Awlad Hossain</h5>
                   <p>UIX Designer</p>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                  <p>Build a portfolio by working on real problem statements <br> from actual clients and not on simulated <br> theoretical projects!</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -181,7 +222,7 @@
                   <img src="images/user-1.png" alt="" class="w-25">
                   <h5>Awlad Hossain</h5>
                   <p>UIX Designer</p>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                  <p>Build a portfolio by working on real problem statements <br> from actual clients and not on simulated <br> theoretical projects!</p>
                 </div>
               </div>
             </div>
@@ -196,9 +237,13 @@
           </div>
 
         </section>
+
+        <!---- main Section two end ------>
+
+        <!-- main Section three start -->
         <section class="container mt-5">
           <h1 class="fw-bold text-center ">Frequently Asked Any Questions</h1>
-          <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+          <p class="text-center">Talk To An Experienced Personal Injury Lawyer Now.  How much is your injury worth? <br> Find out today. Winning Together.</p>
           <div class="row">
             
             <div class="col-12 col-md-6">
@@ -208,12 +253,12 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
+                          <strong>1.What is the difference between Flex and Gird?</strong>
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time. The two specifications share some common features, however, and if you have already learned how to use flexbox, the similarities should help you get to grips with Grid.
                         </div>
                       </div>
                     </div>
@@ -223,12 +268,12 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
+                         <strong>2.what is the purpose of Media Query?</strong>
                         </button>
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          The CSS Media Query gives you a way to apply CSS only when the browser and device environment matches a rule that you specify, for example "viewport is wider than 480 pixels". Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse. In this lesson you will first learn about the syntax used in media queries, and then move on to use them in a working example showing how a simple design might be made responsive.
                         </div>
                       </div>
                     </div>
@@ -236,14 +281,33 @@
                   </div>
                   <div class="col-12">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Accordion Item #2
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <strong>3.How Does work CSS Box Model?</strong>
                         </button>
                       </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          In CSS, the term "box model" is used when talking about design and layout. <br>
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-12">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                          <strong>4. What is Semantic element?</strong>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body"> Semantic HTML tags are tags that define the meaning of the content they contain. <br>
+
+For example, tags like (header), (article), and (footer) are semantic HTML tags. They clearly indicate the role of the content they contain. <br>
+
+On the other hand, tags like (div) and (span) are typical examples of non-semantic HTML elements. They serve only as content holders but give no indication as to what type of content they contain or what role that content plays on the page
                         </div>
                       </div>
                     </div>
@@ -262,12 +326,18 @@
 
 
         </section>
+
+        <!---- main Section three end ------>
  
     </main>
-    <footer class="bg-black mt-5">
+
+    <!---- main end ----->
+
+    <!----- footer Start ------>
+    <footer class="bg-black mt-5 ">
       <div class="container py-5">
-        <div class="row">
-            <div class=" col-12 col-md-3">
+        <div class="row ">
+            <div class=" col-12 col-md-3  ">
               <div class="d-flex align-content-center ">
                 <img style="width: 44px; height: 45px;" src="images/business.png" alt="">
                 <h5 class="mt-3"><a class="navbar-brand fw-bold text-white   p-3 " href="#">Justice</a></h5>
@@ -295,16 +365,16 @@
             <div class=" col-12 col-md-4 text-white gap-5 ms-auto">
                 <h6 class="fw-bold">Subscribe</h6>
                 <p>Subscribe for our latest & <br> Articles. We Won’t Give You <br> Spam Mails</p>
-                <form class="d-flex  " role="search">
-                  <input class="form-control  "  type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-primary  " ><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
-                </form>
+                <div class="input-group mb-3 rounded-  ">
+                  <input class=" "  type="search" placeholder="Email Address" aria-label="Search">
+                  <button class="btn btn-primary   " ><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
+                </div>
             </div>
         </div>
     </div>
 
     </footer>
-    
+    <!----- Footer End ----->
 
     <!----------------- js ------------->
     <script src="js/bootstrap.js"></script>
