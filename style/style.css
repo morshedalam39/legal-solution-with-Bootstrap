@@ -2,3 +2,5 @@
     background: url("../images/banner.png") no-repeat center top / cover;
     min-height: calc(100vh - 150px)
 }
+.accordion-button::after {background-image: url("../images/bx-plus.svg");}
+.accordion-button:not(.collapsed)::after {background-image: url("../images/bx-minus.svg");}
