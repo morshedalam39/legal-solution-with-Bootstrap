@@ -1,0 +1,4 @@
+.banner-img{
+    background: url("../images/banner.png") no-repeat center top / cover;
+    min-height: calc(100vh - 150px)
+}
